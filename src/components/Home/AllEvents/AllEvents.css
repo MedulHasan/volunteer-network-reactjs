@@ -1,0 +1,19 @@
+.events-container {
+    background-color: lightgray;
+    margin-top: 20px;
+}
+.all-events {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 10%;
+    grid-gap: 20px;
+    padding: 3% 0;
+}
+.single-event {
+    background-color: orange;
+    border-radius: 12px;
+    height: 400px;
+}
+.single-event img {
+    border-radius: 0;
+}

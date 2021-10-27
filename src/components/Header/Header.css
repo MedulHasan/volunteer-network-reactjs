@@ -1,0 +1,15 @@
+.header {
+    /* background-image: url('../../../image/bg.jpg'); */
+}
+.navigationLink {
+    color: black !important;
+}
+.navigationLink:not(:last-child):hover {
+    color: blue !important;
+}
+.register-link {
+    background-color: #3F90FC;
+    color: #fff !important;
+    padding: 8px 20px !important;
+    border-radius: 5px;
+}
